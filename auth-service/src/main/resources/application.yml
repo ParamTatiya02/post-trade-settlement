@@ -1,0 +1,11 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: auth-service
+  security:
+    user:
+      password: disabled
+jwt:
+  secret: 1jRFQmWkwjwJMzMuYyLlDwKDJfnvfYK9u+LZc+czWVs=
+  expiry-ms: 3600000
