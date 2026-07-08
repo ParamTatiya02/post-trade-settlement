@@ -7,5 +7,5 @@ spring:
     user:
       password: disabled
 jwt:
-  secret: 1jRFQmWkwjwJMzMuYyLlDwKDJfnvfYK9u+LZc+czWVs=
+  secret: ${JWT_SECRET:1jRFQmWkwjwJMzMuYyLlDwKDJfnvfYK9u+LZc+czWVs=}
   expiry-ms: 3600000

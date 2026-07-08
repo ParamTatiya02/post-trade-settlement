@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: api-gateway
+jwt:
+  secret: ${JWT_SECRET:1jRFQmWkwjwJMzMuYyLlDwKDJfnvfYK9u+LZc+czWVs=}
+services:
+  intake-url: ${INTAKE_URL:http://localhost:8081}
+  settlement-url: ${SETTLEMENT_URL:http://localhost:8083}
